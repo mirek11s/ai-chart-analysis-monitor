@@ -1,0 +1,9 @@
+# Copy to config/local.toml for local overrides. CLI options take precedence.
+exchange = "binance"
+symbol = "BTC/USDC"
+timeframe = "1d"
+cdp_url = "http://127.0.0.1:9222"
+poll_seconds = 30
+cooldown_seconds = 300
+tolerance_pct = 0.05
+revisit_seconds = 300

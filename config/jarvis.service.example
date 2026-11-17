@@ -1,0 +1,13 @@
+[Unit]
+Description=Jarvis local chart monitor
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/absolute/path/to/ai-chart-analysis-monitor
+ExecStart=/absolute/path/to/ai-chart-analysis-monitor/.venv/bin/python -m jarvis --home /absolute/path/to/ai-chart-analysis-monitor worker run
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target
