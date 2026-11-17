@@ -1,9 +1,5 @@
 # Using Jarvis
 
-Project: `C:\Users\Mirek\Desktop\Code\ai-chart-analysis-monitor`
-
-The local environment is already installed. Start with an AI chat attached to this folder.
-
 ## 1. Ask in this chat
 
 This project chat has local file and command access. Type this request, or dictate it:
