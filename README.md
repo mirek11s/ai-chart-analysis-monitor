@@ -2,6 +2,8 @@
 
 Jarvis is the assistant and `jarvis` is the CLI for this project.
 
+Start here: [simple usage guide and example prompts](USAGE.md).
+
 Python MVP: real Binance spot OHLCV → reproducible support/resistance → precisely scaled PNG + Markdown → persistent SQLite monitor → local alert. Runs without a paid API or an open AI conversation. No trading endpoints.
 
 ## Install
